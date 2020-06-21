@@ -1,2 +1,7 @@
-fajfoajfkawjpfa f
-awqEQe
+---
+name: Test Now Valid
+hosts: all
+become: no
+tasks:
+  debug:
+    var: Test!
